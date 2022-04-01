@@ -24,4 +24,12 @@ The dataset dictionary can be seen below:
 
 ## Traffic Volume Analysis
 
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/77873198/161188392-7e21a311-bf09-439b-8009-b86d4136d715.png">
+
+### Observations of `traffic_volume`
+
+- During the time frame **from 2012-10-02 09:00:00 and 2018-09-30 23:00:00** the hourly traffic volume ranged from 0 to 7,280 cars. 
+- The average number of cars was around 3,260 cars. 
+- Around 25% of the time there 1,193 cars. 
+- 75% of the time there was 4,933 cars. 
 
