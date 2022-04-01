@@ -36,6 +36,8 @@ The dataset dictionary can be seen below:
 ## Visualizing the differences between traffic_volume: Day vs. Night
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/77873198/161188601-1cb36676-0590-489a-8cc1-1e73c4363145.png">
 
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/77873198/161188838-82e86de9-dd3a-4fb4-9d8b-327cee280581.png">
+
 ### Analysis
 
 Day
@@ -47,9 +49,59 @@ Night
 - 75% of the time the number of cars passing the station was less than 2,819. 
 - There are a few points where the number of vehicles gets above 5,000, but overall the totals at night are much lower than during the daytime.
 
-## Exploring time as an indicator of Heavy Traffic- Line chart
+
+## Exploring time as an indicator of Heavy Traffic- (Line chart)
 
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/77873198/161188759-b40f1cf7-f2af-4942-8658-3db8f9c45b27.png">
 
+### Observations (Month)
+
+- First, the traffic volume numbers seem to tumble during the winter months and start to rise when Spring comes. 
+- There's an exception to this observation though. Traffic plummets during the warm month of July? What could be the cause of this? Summer vacation? People avoiding the heat?
+
+## Time as an indicator by day (Grid Chart)
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/77873198/161189061-33e5d819-f487-4dc7-b620-6595e668fc9c.png">
+
+### Observation
+
+The traffic is generally higher at every hour of the day compared to on the weekend. The rush hour on weekdays tends to be around 5:00 pm. 
+
+#### Weekdays
+- The quiet period is from 10:00 am until 2:00 pm. The exception to this is when people return home in the afternoon around 6:00 pm.
+
+#### Weekends
+- Traffic on the weekends peak from 7:00 am until around 12:00 pm. 
+
+## Weather Indicators Traffic vs. Volume (Scatterplot)
+
+<img width="541" alt="image" src="https://user-images.githubusercontent.com/77873198/161189217-ff50d68d-12b7-4b71-9a2e-5b964e649879.png">
+
+### Observation
+- Looking at the chart above there doesn't seem to be a correlation in either the positive or negative direction when `temp` and `traffic_volume` are compared. Therefore, temp isn't a reliable indicator for heavy traffic. 
+
+## Weather types as an Indicator (Horizontal Barplot)
+
+<img width="632" alt="image" src="https://user-images.githubusercontent.com/77873198/161189339-1441557a-64ab-4490-9a85-f5b5a112cf33.png">
+
+### Observations
+- There are no weather types that exceed 5000 cars. It's difficult to ascertain whether or not `weather_type` is a reliable indicator of heavy traffic. 
+
+
+## Final Conclusions
+
+### Conclusion
+
+During this project we had a look at two possible indicators of heavy traffic on the I-94 Interstate Highway. These indictators were:
+
+- Time Indicators
+    - Summer months typically have heavier traffic volumes. 
+    - Traffic is heavier during the week. 
+    - The rush hour for traffic on weekdays starts around 5:00 pm. 
+    
+- Weather Indicators
+    - light snow
+    - heavy snow
+    - Thunderstorms in close proximity with drizzle. 
 
 
