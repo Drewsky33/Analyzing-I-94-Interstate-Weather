@@ -33,3 +33,23 @@ The dataset dictionary can be seen below:
 - Around 25% of the time there 1,193 cars. 
 - 75% of the time there was 4,933 cars. 
 
+## Visualizing the differences between traffic_volume: Day vs. Night
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/77873198/161188601-1cb36676-0590-489a-8cc1-1e73c4363145.png">
+
+### Analysis
+
+Day
+- The histogram above shows that the distribution of the day-time traffic volume is left-skewed. Interpreting this, I'd say that most of the traffic volumes are high. 75% of the tie there are more than 4,252 cars in traffic. 
+
+Night
+- The histogram for the night traffic volume histogram is right skewed indicating that the traffic volumes during this time of day are relatively small overall. 
+- The average number of cars during this period are 1,785 cars. 
+- 75% of the time the number of cars passing the station was less than 2,819. 
+- There are a few points where the number of vehicles gets above 5,000, but overall the totals at night are much lower than during the daytime.
+
+## Exploring time as an indicator of Heavy Traffic- Line chart
+
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/77873198/161188759-b40f1cf7-f2af-4942-8658-3db8f9c45b27.png">
+
+
+
