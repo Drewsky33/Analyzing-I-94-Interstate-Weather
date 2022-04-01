@@ -21,3 +21,7 @@ The dataset dictionary can be seen below:
 - `weather_description` Categorical Longer textual description of the current weather
 - `date_time` DateTime Hour of the data collected in local CST time
 - `traffic_volume` Numeric Hourly I-94 ATR 301 reported westbound traffic volume
+
+## Traffic Volume Analysis
+
+
